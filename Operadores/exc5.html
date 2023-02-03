@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+
+<body>
+
+    <!-- Script -->
+
+    <script>
+
+     /* Operadores
+              Aritméticos -> + - * / % ** <- Operadores Binários  ( % operador de resto da divisão inteira)
+              
+              Atribuição
+              Atribuição  Simples:
+                   var a = 5 + 3           '8'      n = n + 4 -> Simplificado -> n += 4 (-= *= /= **= %=)
+                   var b = a % 5           '3' 
+                   var c = 5 * b **2       '45' 
+                   var d = 10 - a / 2      '6' 
+                   var e = 6 * 2 / d       '2' 
+                   var f = b % e + 4 / e   '3' 
+                                    |
+           Relacionados             |   
+           Lógicos                  |
+           Ternário                 |
+                                    |
+          Ordem de precedência      |
+                                    |
+           | ()                     |
+           | **              <----- +
+           | * / %
+           | + -
+           v
+      
+           > n = 2
+           '2'
+           > n = n + 2
+           '4'
+           > n += 2
+           '6'
+           >
+       Incremento
+          var n = 5
+          n = x + 1  ->  n++
+          n = x - 1  ->  n--
+       Relacionados
+            5 > 2 -> true
+            7 < 4 -> false
+            8 >= 8 -> true
+            9 <= 7 -> false
+            5 == 5 -> true
+            4 != 4 -> false
+               Nota:
+                   5 == '5' -> true (Não considera tipo)
+                   5 === '5' -> false (Considera tipo)
+       Lógicos
+Ordem de precedência
+       |
+       |   Negação !
+       |
+       |            ! true -> false
+       |            ! false -> true
+       |
+       |   Conjunção &&
+       |
+       |            true && true -> true
+       |            true && false -> false
+       |            false && true -> false
+       |            false && false -> false
+       |
+       |   disjunção ||
+       |            
+       |            true || true -> true
+       |            true || false -> true
+       |            false || true -> true
+       v            false || false -> false  
+                 
+       var a = 5
+       var b = 8
+       a > b && b % 2 == 0
+               |
+               v
+       Nota:
+           Primeiro os operadores aritméticos, os relacionais e só depois os lógicos
+       Ternários
+           ?
+           :
+           teste? true : false
+           Ex:
+               var média = 5.5
+               média > 7? 'APROVADO' : 'REPROVADO'
+               var n = 8
+               var resto = n % 2 == 0? 5 : 9
+*/
+    </script>
+
+    <!-- Script -->
+
+</body>
+</html>

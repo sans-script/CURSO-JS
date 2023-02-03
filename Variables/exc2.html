@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: #3c3cff;
+            color: white;
+            font-size: 25pt;
+            font-family: Helvetica;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <h2>Hello!</h2>
+<!-- Script -->
+    <script>
+
+        // window.alert("Mensagem")
+        // window.confirm("TÁ OK?")
+
+        /*
+        
+        -- Existem três formas de delimitar um string
+        var a = "JavasScript"
+        var b = 'CursoemVídeo'
+        var c = `Crase`
+
+        -- Chamamos o nome de cada variável de identificadores.
+
+        Regras para os identificadores:
+
+            ✏️ Podem começar com letra, $ ou _
+            ✏️ Não podem começar com números
+            ✏️ É possível usar letras ou números
+            ✏️ É possível usar acentos e símbolos
+            ✏️ Não podem conter espaços
+            ✏️ Não podem ser palavras reservadas pelo JS (var, const, let etc.)
+        Dicas:
+            Maiúsculas e minúsculas fazem diferença
+            Escolher nome coerentes para as vari
+Data Types:
+        number
+            infinity
+            NaN
+        string
+        boolean
+        null
+        undefined
+        object
+            array
+        function
+
+        */
+
+        let Nome = window.prompt("Qualteunome?")
+        let NoName = null
+        if (Nome === NoName){
+            window.alert("Olá Sem Nome")
+            document.querySelector('h1').innerHTML = "Welcome No Name"
+        }else{
+            // Concatenação
+            window.alert("Olá " + Nome+"!")
+            document.querySelector('h1').innerHTML = "Welcome " + Nome + "!"
+        }
+
+    </script>
+<!-- Script -->
+</body>
+</html>

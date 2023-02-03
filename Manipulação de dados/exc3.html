@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: #3c3cff;
+            color: white;
+            font-size: 25pt;
+            font-family: Helvetica;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+
+<!-- Script -->
+
+    <script>
+
+        // String(n) e n.toString() <-- transforma em string
+        // Number(n) <-- trasforma em inteiro
+
+        //          Manipulação de dados
+        // Recebe uma string e transforma em inteiro
+        var n1 = Number(window.prompt('Digite um número'))
+        var n2 = Number(window.prompt('Digite outro número'))
+
+        var soma = n1 + n2
+
+        /* Formatando Strings*/
+        // soma.length <-- quantos caracteres a string tem
+        // soma.toUpperCase() <-- tudo para MAIÚSCULAS
+        // soma.toLowerCase() <-- tudo para minúsculas
+
+        
+        // Usando template string
+        window.alert(`A soma é ${soma}`) // Chamaos ${soma} de placeholder
+
+        document.querySelector('h1').innerHTML = soma
+
+
+
+
+    </script>
+
+<!-- Script -->
+</body>
+</html>

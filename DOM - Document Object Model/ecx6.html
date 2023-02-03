@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiros passos com o DOM</title>
+    <style>
+      body {
+        background: #0051ff;
+        color: #fff;
+        font: 18pt Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div class="msg1" id="msg">Clique em mim</div>
+
+    <!-- Script -->
+
+    <script>
+
+      /*
+              Árvore DOM - Elementos (DOM - Document Object Model)
+
+                  window
+                       location
+                       document
+                               HTML
+                                   head
+                                       meta
+                                       title
+                                   body
+                                       h1
+                                       p
+                                       p
+                                        strong
+                                       div
+
+
+
+                       history
+
+
+    //   window.document.write(window.document.characterSet)
+    //   window.document.write(window.navigator.appName)
+    //   window.document.write(window.document.URL)
+
+    Métodos de acesso
+
+        Por Marca - getElementByTagName()
+        Por ID - getElementById()
+        Por Nome - getElementsByTagName()
+        Por Classe - getElementsByClassName()
+        Por Seletor - querySelector()
+        
+
+// Por Marca
+      var corpo = window.document.body
+      var p1 = window.document.getElementsByTagName('p')[1]
+      window.document.write(p1.innerText)
+      // p1.style.color = 'red'
+      // corpo.style.background = 'blue'
+      document.write(p1.innerHTML)
+      
+  
+// Por ID
+      var d = window.document.getElementById('msg')
+
+// Por Classe   
+      window.document.getElementByClassName('div.msg1')
+
+// Por Seletor  
+      window.document.querySelector('div#msg')
+*/
+      
+    </script>
+
+    <!-- Script -->
+  </body>
+</html>
